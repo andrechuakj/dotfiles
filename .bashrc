@@ -11,3 +11,6 @@ PS1='[\u@\h \W]\$ '
 
 # Run ssh agent
 . ~/scripts/start-ssh_agent.sh
+
+# For autojump
+[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
