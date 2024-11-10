@@ -15,10 +15,9 @@
 	"custom/notification"
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
-        "pulseaudio",
         "network",
+        "mpd",
+        "pulseaudio",
         "battery",
         "clock#date",
 	"custom/power"
@@ -78,8 +77,8 @@
     "idle_inhibitor": {
         "format": " {icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": " ",
+            "deactivated": " "
         }
     },
     "tray": {
@@ -90,7 +89,7 @@
     	"format": " {:%H:%M}",
     },
     "clock#date": {
-        "format": "   {:%a, %D}  ",
+        "format": " {:%a,%D}",
         "tooltip-format": "<tt><big>{calendar}</big></tt>",
         "calendar": {
                 "mode"          : "month",
@@ -139,11 +138,11 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
+        "format": "{icon} <small>{capacity}%</small>",
+        "format-full": "{icon} ",
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
+        "format-alt": "{time} {icon} ",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
@@ -174,12 +173,12 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format": "{icon}  {format_source}",
+        "format-bluetooth": "{icon}  {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": "<span foreground='red'> </span>{format_source}",
-        "format-source": "  ",
-        "format-source-muted": "  <span foreground='red'></span>",
+        "format-source": " ",
+        "format-source-muted": "<span foreground='red'> </span>",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -204,7 +203,7 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : " ⏻ ",
 	"tooltip": false,
 	"menu": "on-click",
 	"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
