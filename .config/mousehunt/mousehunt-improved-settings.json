@@ -1,0 +1,41 @@
+{
+  "mh-improved-updates-completed": [
+    "0.69.0"
+  ],
+  "mh-improved-version": "0.71.0",
+  "better-travel-settings": {
+    "previous-location": "",
+    "current-location": "halloween_event_location"
+  },
+  "onboarding-settings": {
+    "mh-improved-onboarding-1": true,
+    "mh-improved-onboarding-2": true
+  },
+  "better-gifts-settings": {
+    "ignore-bad-gifts-0": "no-skip"
+  },
+  "better-marketplace-settings": {
+    "search-all": true,
+    "show-chart-images": true
+  },
+  "copy-id-button-settings": {
+    "hide-button": true
+  },
+  "native-dark-mode": true,
+  "open-all": false,
+  "lgs-reminder": true,
+  "lgs-reminder-settings": {
+    "new-style": true
+  },
+  "metric": true,
+  "replace-favicon": true,
+  "shield-goes-to-camp": true,
+  "wisdom-in-stat-bar": true,
+  "custom-background-0": "midnight",
+  "adblock": true,
+  "hide-daily-reward-popup": true,
+  "hide-news-ticker": false,
+  "settings-settings": {
+    "toggled-sections": []
+  }
+}
