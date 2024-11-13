@@ -4,3 +4,4 @@ prompt=What are you looking for?
 matching=multi-contains
 insensitive=true
 image_size=24
+key_expand=Tab
